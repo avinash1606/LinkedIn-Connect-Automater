@@ -1,0 +1,55 @@
+/* General App styling */
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  height: 100vh; /* Full viewport height */
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f2f5; /* Light gray background for a neutral look */
+  color: #333; /* Darker text for contrast */
+  padding: 20px; /* Added padding to the content */
+  box-sizing: border-box; /* Ensures padding is included in height calculations */
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #0077b5; /* LinkedIn blue */
+  text-align: center; /* Center align the heading */
+}
+
+/* Button styling */
+button {
+  padding: 12px 24px; /* Padding for a more substantial feel */
+  margin: 10px;
+  font-size: 16px;
+  background-color: #0077b5; /* LinkedIn blue */
+  color: white;
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  font-weight: bold; /* Bold text for visibility */
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #005582; /* Darker blue on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+/* Disabled button styling */
+button:disabled {
+  background-color: #b0bec5; /* Light gray when disabled */
+  cursor: not-allowed;
+  box-shadow: none; /* Remove shadow when disabled */
+}
+
+p {
+  font-size: 18px;
+  margin-top: 20px;
+  color: #333; /* Dark text for readability */
+  text-align: center; /* Center align text */
+}
