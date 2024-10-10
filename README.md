@@ -41,7 +41,7 @@ To load the extension in Chrome:
 
 1. Go to `chrome://extensions/`.
 2. Enable "Developer mode" in the top right corner.
-3. Click on "Load unpacked" and select the `dist` folder of your project.
+3. Click on "Load unpacked" and select the `.output` folder of your project which is generated after building the project. Go to that folder and upload chrome-mv3.
 4. Navigate to the LinkedIn "Grow" page and click on the extension icon to start using it.
 
 ## Contributing
